@@ -16,7 +16,6 @@ function loadPage() {
 
 function createPage() {
     const page = document.createElement("div");
-    page.innerHTML = "Hi!";
     page.id = "page";
     page.appendChild(createHeader());
     page.appendChild(createNav());
