@@ -334,12 +334,6 @@ export default class ToDo {
             }
 
             // Compare due dates
-            const temp = compareDateAsc(a.dueDate, b.dueDate);
-            if (temp < 0) {
-            } else if (temp > 0) {
-
-            } else {
-            }
             return compareDateAsc(a.dueDate, b.dueDate);
         });
 
